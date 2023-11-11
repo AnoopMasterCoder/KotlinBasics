@@ -1,4 +1,4 @@
-package com.anoop.kotlinbasics
+package com.anoop.kotlinbasics.basics
 
 fun main() {
 

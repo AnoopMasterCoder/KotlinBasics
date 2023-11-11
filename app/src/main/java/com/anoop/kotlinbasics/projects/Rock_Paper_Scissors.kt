@@ -14,6 +14,9 @@ fun main() {
     playerChoice = readln().lowercase()
     val randomNumber = (1..3).random()
 
+    if (playerChoice == "scissor")
+        playerChoice = "scissors"
+
 
     // To check if user has entered a valid option (still has bugs: For example, user may enter `rock paper`
     // and it would break the loop)

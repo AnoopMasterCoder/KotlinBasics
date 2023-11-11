@@ -1,4 +1,4 @@
-package com.anoop.kotlinbasics
+package com.anoop.kotlinbasics.basics
 
 fun main() {
     val num1 = 1   // Immutable variable

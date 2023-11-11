@@ -1,4 +1,4 @@
-package com.anoop.kotlinbasics
+package com.anoop.kotlinbasics.basics
 
 fun main() {
 
@@ -9,11 +9,10 @@ fun main() {
     // Convert the entered value to integer
     age = enteredValue.toInt()
 
-    if (age >= 40){                             // REMEMBER: Only the first condition that is true will be executed
-        println("You can't go into the club")
-    }else if (age >=18){
+
+    if (age >= 18) {
         println("You can go into the club")
-    }else{
+    } else {
         println("You are too young to go into the club!")
     }
 
